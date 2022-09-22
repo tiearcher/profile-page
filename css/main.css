@@ -39,7 +39,7 @@ nav ul {
 
 nav ul li {
   padding: 0 2rem;
-  font-family: 'Yeseva One' , cursive;
+  font-family: 'Lato' , sans-serif;
 }
 
 nav ul li a {
@@ -58,5 +58,6 @@ footer p{
 }
 
 h2{
-  font-family: 'Yeseva One' , cursive;
+  font-family: 'Homemade Apple' , cursive;
+  font-size: 3rem
 }
