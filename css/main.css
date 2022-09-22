@@ -22,6 +22,8 @@ main {
   max-width: 1080px;
   margin: 0 auto;
   display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 1fr 5fr;
 }
 
 .running {
@@ -59,7 +61,8 @@ footer p {
 
 h2 {
   font-family: 'Homemade Apple' , cursive;
-  font-size: 3rem
+  font-size: 3rem;
+  padding: 3rem 10rem 3rem 3rem;
 }
 
 img {
@@ -68,8 +71,24 @@ img {
 
 .my-work {
   background-color: rgba(242, 246, 255, 1);
+  display: flex;
+  justify-content: right;
+  align-items: flex-start;
 }
 
 .about-me {
   background-color: rgba(255, 242, 242, 1);
+  display: flex;
+}
+
+section img {
+  width: 40rem;
+  height: 40rem;
+  object-fit: cover;
+}
+
+div img {
+  width: 30rem;
+  height: 30rem;
+  object-fit: cover;
 }
