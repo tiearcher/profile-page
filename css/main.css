@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Lato&family=Yeseva+One&display=swap');
 
 html {
   box-sizing: border-box;
@@ -10,8 +10,8 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Karla', sans-serif;
-  line-height: 1.4;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6;
   position:
 }
 
@@ -39,6 +39,7 @@ nav ul {
 
 nav ul li {
   padding: 0 2rem;
+  font-family: 'Yeseva One' , cursive;
 }
 
 nav ul li a {
@@ -54,4 +55,8 @@ nav ul li a:hover {
 footer p{
   margin-bottom: 0;
   color: rgba(250,221,202,1);
+}
+
+h2{
+  font-family: 'Yeseva One' , cursive;
 }
