@@ -27,7 +27,7 @@ main {
 }
 
 .running {
-  background-color: rgba(185, 161, 227,1);
+  background-color: rgba(249, 220, 165, 1);
   padding: 0;
 }
 
@@ -45,7 +45,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: rgba(250,221,202,1);
+  color: rgba(98, 127, 184, 1);
   text-decoration: none;
   font-weight: bold;
 }
@@ -55,8 +55,10 @@ nav ul li a:hover {
 }
 
 footer p {
+  display: flex;
   margin-bottom: 0;
-  color: rgba(250,221,202,1);
+  color: rgba(98, 127, 184, 1);
+  justify-content: center;
 }
 
 h2 {
@@ -72,8 +74,6 @@ img {
 .my-work {
   background-color: rgba(242, 246, 255, 1);
   display: flex;
-  justify-content: right;
-  align-items: flex-start;
 }
 
 .about-me {
@@ -91,4 +91,23 @@ div img {
   width: 30rem;
   height: 30rem;
   object-fit: cover;
+}
+
+.big-banner {
+  width: 100%;
+  height: 90vh;
+  background-color: rgba(98, 127, 184, 1);
+  background-image: url('../images/smudgy-moon-clouds.jpeg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background: rgba(98, 127, 184, 1) url('../images/smudgy-moon-clouds.jpeg' no-repeat center center);
+  display: flex;
+}
+
+h1 {
+  font-family: 'Homemade Apple' , cursive;
+  font-size: 7rem;
+  justify-content: center;
+  color: rgba(255, 255, 255, 1);
 }
