@@ -12,7 +12,6 @@ body {
   margin: 0;
   font-family: 'Lato', sans-serif;
   line-height: 1.6;
-  position:
 }
 
 img {
@@ -22,6 +21,7 @@ img {
 main {
   max-width: 1080px;
   margin: 0 auto;
+  display: grid;
 }
 
 .running {
@@ -52,12 +52,24 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-footer p{
+footer p {
   margin-bottom: 0;
   color: rgba(250,221,202,1);
 }
 
-h2{
+h2 {
   font-family: 'Homemade Apple' , cursive;
   font-size: 3rem
+}
+
+img {
+  max-width: 100%;
+}
+
+.my-work {
+  background-color: rgba(242, 246, 255, 1);
+}
+
+.about-me {
+  background-color: rgba(255, 242, 242, 1);
 }
