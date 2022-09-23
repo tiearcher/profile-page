@@ -88,6 +88,10 @@ img {
   justify-content: space-around;
 }
 
+.my-work-content {
+  display: flex;
+}
+
 .about-me img {
   width: 20rem;
   height: 20rem;
@@ -129,15 +133,12 @@ h1 {
   gap: 2rem;
 }
 
-.about-me p {
+p {
   max-width: 30rem;
+  margin: 0 2rem;
+  padding: 0 1rem;
 }
 
 section {
   padding: 3rem;
-}
-
-p {
-  margin: 0 2rem;
-  padding: 0 1rem;
 }
