@@ -55,15 +55,15 @@ nav ul li a:hover {
 }
 
 footer p {
-  display: flex;
   margin: 0;
   color: rgba(98, 127, 184, 1);
-  justify-content: center;
   padding: 1rem 0;
 }
 
 footer {
   margin-top: 3rem;
+  display: flex;
+  justify-content: center;
 }
 
 h2 {
@@ -90,12 +90,14 @@ img {
 
 .my-work-content {
   display: flex;
+  margin-bottom: 2rem;
 }
 
 .about-me img {
-  width: 20rem;
-  height: 20rem;
+  width: 25rem;
+  height: 25rem;
   object-fit: cover;
+  border-radius: 50%;
 }
 
 .my-work img {
@@ -141,4 +143,8 @@ p {
 
 section {
   padding: 3rem;
+}
+
+.my-work-content p {
+  padding-bottom: 1rem;
 }
