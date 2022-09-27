@@ -133,6 +133,7 @@ h1 {
   grid-template-columns: repeat(3 , 1fr);
   grid-template-rows: repeat(2 , 1fr);
   gap: 2rem;
+
 }
 
 p {
@@ -148,3 +149,12 @@ section {
 .my-work-content p {
   padding-bottom: 1rem;
 }
+
+.portfolio-item {
+  display: flex;
+  align-items: center;
+}
+
+/* .portfolio-item img {
+  align-self: center;
+} */
